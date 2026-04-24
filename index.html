@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VEVO Fashion Magazine</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="header_content">
+        <h1 class="header_title_mobile">VEVO</h1>
+        <div class="button_container1">
+          <button class="header_btn">Subscribe</button>
+          <button class="sign-in">
+              <i class="ri-user-3-line">Sign In</i>
+          </button>
+          <button class="search-bar">
+            <i class="ri-search-line"></i>
+          </button>
+        </div>
+      </div>
+      <div>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <div class="nav-mobile">
+          <button class="btn">FASHION</button>
+          <button class="btn">BEAUTY</button>
+          <button class="btn">LIFESTYLE</button>
+          <button class="btn">CELEBRITY</button>
+          <button class="btn">RUNWAY</button>
+          <button class="btn">TRENDS</button>
+          <button class="btn">SHOPPING</button>
+          <button class="btn">HOROSCOPE</button>
+        </div>
+      </div>
+    </nav>
+      <hr class="hr1">      
+  </header>
+  <main>
+    <hr style="margin-top: 1vh;">
+    <div class="banner">
+      <img src="fashion/banner_photo.jpg" alt="present for subscribe">
+      <h2>Limited-Time Offer: Elevate the Season with VEVO</h2>
+      <button>Subscribe now</button>
+    </div>
+    <hr>
+    <div class="container1">
+      <aside class="left_section">
+          <div class="title_left">Latest News</div>
+          <article class="news_item">
+              <img src="fashion/Milan.jpg" alt="Milan Fashion Week">
+              <p class="text">Milan Fashion Week , by Elena Gilbert</p>
+          </article>
+          <article class="news_item">
+              <img src="fashion/Ad_3.png" alt="Milan Fashion Week">
+              <p class="text">All the Celebrities at Milan Fashion Week Autumn Season</p>
+          </article>
+      </aside>
+
+      <div class="center_img">
+          <img src="fashion/main 3.jpeg" alt="models">
+          <div class="overlay_text">Explore Fashion Trends</div>
+      </div>
+
+      <aside class="right_section">
+        <div class="title_right">Events</div>
+        <article class="event_item">
+          <img src="fashion/Event_1.jpeg" alt="event 1">
+          <p class="text">Paris Fashion District, Grand Palais Éphémère, Paris, France<br>March 15, 2024, 7:00 PM</p>
+        </article>
+        <article class="event_item">
+          <img src="fashion/Event_3 2.jpeg" alt="event 2">
+          <p class="text">New York City Arts Warehouse, Manhattan, New York, USA<br>April 20, 2024, 6:00 PM</p>
+        </article>
+      </aside>
+    </div>
+    
+    <hr class="hr2">
+
+    <section class="section_container2 rec_container">
+      <h2 class="section_header">Recommendations</h2>
+      <div class="carousel">
+        <input type="radio" id="rec_slide1" name="rec_carousel" checked>
+        <input type="radio" id="rec_slide2" name="rec_carousel">
+        <input type="radio" id="rec_slide3" name="rec_carousel">
+
+        <div class="carousel-track">
+          <article class="card">
+            <img src="fashion/REC_1 .jpeg" alt="black and white picture of cartier">
+            <div class="article_details">
+              <p class="article_description">The Revival of Vintage: Why Old is the New Chic</p>
+              <p class="author">BY EVELYN HARPER</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="fashion/REC_2.jpg" alt="two men helping a model fix her jellyfish neon dress">
+            <div class="article_details">
+              <p class="article_description">Fashion and Tech: The Future of Wearable Innovation</p>
+              <p class="author">BY MARCUS CHEN</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="fashion/REC_3.jpeg" alt="four models of different color showing makeup that suits their skin tones">
+            <div class="article_details">
+              <p class="article_description">Color Psychology in Fashion: Dress to Impress</p>
+              <p class="author">BY SOPHIA NGUYEN</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="carousel-buttons">
+          <label for="rec_slide1" class="carousel-button"></label>
+          <label for="rec_slide2" class="carousel-button"></label>
+          <label for="rec_slide3" class="carousel-button"></label>
+        </div>
+      </div>
+    </section>
+
+    <hr class="hr3">
+
+    <section class="section_container2 style_container">
+      <h2 class="section_header">Street Style</h2>
+      <div class="carousel">
+        <input type="radio" id="style_slide1" name="style_carousel" checked>
+        <input type="radio" id="style_slide2" name="style_carousel">
+        <input type="radio" id="style_slide3" name="style_carousel">
+
+        <div class="carousel-track">
+          <article class="card">
+            <img src="fashion/Street_Style_2.jpeg" alt="three men wearing all black">
+            <div class="article_details">
+              <p class="article_description">Rick Owen’s on the New York Street</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="fashion/Street_Style_1.jpeg" alt="Gigi Hadid, Rihanna and other model in jeans and oversized coats">
+            <div class="article_details">
+              <p class="article_description">Best Looks in Street Style</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="fashion/Street_Style_3.jpeg" alt="very thankgivingy outfits">
+            <div class="article_details">
+              <p class="article_description">The Street Style Dress for Thanksgiving</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="carousel-buttons">
+          <label for="style_slide1" class="carousel-button"></label>
+          <label for="style_slide2" class="carousel-button"></label>
+          <label for="style_slide3" class="carousel-button"></label>
+        </div>
+      </div>
+    </section>
+
+    <hr class="hr4">
+
+    <section class="section_container2 collab_container">
+      <h2 class="section_header">Fashion Collaborations</h2>
+      <div class="carousel">
+
+        <input type="radio" id="collab_slide1" name="collab_carousel" checked>
+        <input type="radio" id="collab_slide2" name="collab_carousel">
+        <input type="radio" id="collab_slide3" name="collab_carousel">
+        <input type="radio" id="collab_slide4" name="collab_carousel">
+
+        <div class="carousel-track">
+          <article class="card">
+            <img src="fashion/Fash_Coll_1.jpeg" alt="two women wearing stripped dresses">
+            <div class="article_details">
+              <p class="article_description">A Beetlejuice x Rodarte Collaboration</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="fashion/Fash_coll_2.jpeg" alt="a white woman wearing all white and a black man wearing all black">
+            <div class="article_details">
+              <p class="article_description">H&M Teams Up With Jean-Michel</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="fashion/Fash_Coll_3.jpeg" alt="two women in oversize with scarved to the ground">
+            <div class="article_details">
+              <p class="article_description">Rokh’s GU Collaboration</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="fashion/Fash_Coll_4.jpeg" alt="four women, two wearing denim and two have white tops, denim bottoms">
+            <div class="article_details">
+              <p class="article_description">Edgy With Gap's Latest Collaboration</p>
+            </div>
+          </article>
+        </div>
+        <div class="carousel-buttons">
+          <label for="collab_slide1" class="carousel-button"></label>
+          <label for="collab_slide2" class="carousel-button"></label>
+          <label for="collab_slide3" class="carousel-button"></label>
+          <label for="collab_slide4" class="carousel-button"></label>
+        </div>
+      </div>
+    </section>
+    <hr class="hr5">
+
+    <section class="section_container2 celeb_container">
+      <h2 class="section_header">Celebrity Style</h2>
+      <div class="carousel">
+
+        <input type="radio" id="celeb_slide1" name="celeb_carousel" checked>
+        <input type="radio" id="celeb_slide2" name="celeb_carousel">
+        <input type="radio" id="celeb_slide3" name="celeb_carousel">
+        <input type="radio" id="celeb_slide4" name="celeb_carousel">
+
+        <div class="carousel-track">
+          <article class="card">
+            <img src="fashion/FW_1.jpeg" alt="Rihanna wearing a bathrobe">
+            <div class="article_details">
+              <p class="article_description">Rihanna Declares Bathrobes</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="fashion/FW_2.jpeg" alt="Madonna wearing a dress with sholder pads">
+            <div class="article_details">
+              <p class="article_description">H&M Teams Up With Jean-Michel</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="fashion/FW_3.jpeg" alt="Harry Styles walking into the room shocked">
+            <div class="article_details">
+              <p class="article_description">Rokh’s GU Collaboration</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="fashion/FW_4.jpeg" alt="Zendaya walking by the Louvre">
+            <div class="article_details">
+              <p class="article_description">Zendaya in Paris</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="carousel-buttons">
+          <label for="celeb_slide1" class="carousel-button"></label>
+          <label for="celeb_slide2" class="carousel-button"></label>
+          <label for="celeb_slide3" class="carousel-button"></label>
+          <label for="celeb_slide4" class="carousel-button"></label>
+        </div>
+      </div>
+    </section>
+
+    <hr class="hr7">
+
+    <section class="wrapper">
+      <div class="grid-container">
+        <div class="item1">Fashion Tips & Guides</div>
+        <div class="item2">MOST POPULAR</div>
+        <article class="item3">
+          <div class="item_num">
+            <p>1</p>
+          </div>
+          <div class="item_content">
+            <h3>The Rise of Quiet Luxury: Minimalism Redefined</h3>
+            <p>Explore the growing appeal of "quiet luxury" — understated, 
+                high-quality fashion pieces that exude elegance without flashy 
+                branding. Perfect for those who favor sophistication over 
+                extravagance.
+            </p>
+          </div>
+        </article>
+        <article class="item4">
+          <div class="item_num">
+            <p>2</p>
+          </div>
+          <div class="item_content">
+            <h3>Fast Fashion Faces a Reckoning: What's Next?</h3>
+            <p>As sustainability takes center stage, fast fashion brands 
+                are under pressure to adapt. Learn about new regulations, 
+                innovations, and how consumers are pushing for a greener 
+                future.
+            </p>
+          </div>
+        </article>
+        <article class="item5">
+          <div class="item_num">
+            <p>3</p>
+          </div>
+          <div class="item_content">
+            <h3>Streetwear Revolution: How Casual Took Over Couture</h3>
+            <p>Dive into the rise of streetwear in high fashion. From oversized 
+                hoodies on the runway to sneaker collaborations, see why casual 
+                is now couture. 
+            </p>
+          </div>
+        </article>
+        <article class="item6">
+          <div class="item_num">
+            <p>4</p>
+          </div>
+          <div class="item_content">
+            <h3>Men’s Fashion Week: Top Designers Shift the Narrative</h3>
+            <p>This season's Men’s Fashion Week showcased gender-neutral 
+                designs and bold experiments with color. Explore the highlights 
+                from top designers.
+            </p>
+          </div>
+        </article>
+        <article class="item7">
+          <div class="item_num">
+            <p>5</p>
+          </div>
+          <div class="item_content">
+            <h3>Iconic Collaborations: Fashion Meets Art</h3>
+            <p>From Louis Vuitton's partnership with Yayoi Kusama to Gucci’s 
+                art-inspired collections, see how fashion and art continue to 
+                push creative boundaries.
+            </p>
+          </div>
+        </article>
+        <div class="item8">
+          <div class="main_tip_img">
+            <img src="fashion/main_tip_img.jpeg" alt="Woman in Hollywood">
+          </div>
+        </div>  
+        <article class="item9">
+          <div class="item9p1">
+            <img src="fashion/first_add_tip_img.jpeg" alt="Tips for Incorporating Color">
+          </div>
+          <div class="tips_description">
+            <p class="item9p2">5 Tips for Incorporating Color into Your Home This Weather</p>
+            <p class="item9p3">Transform your living space with these simple yet impactful color ideas tailored to suit the season's mood.</p>
+            <p class="item9p4">October 14, 2024</p>
+          </div>
+        </article>
+        <article class="item10">
+          <div class="item10p1">
+            <img src="fashion/second_add_tip_img.jpeg" alt="Tips for Making Your Fragrance Last Longer">
+          </div>
+          <div class="tips_description">
+            <p class="item10p2">Tips for Making Your Fragrance Last Longer</p>
+            <p class="item10p3">Ensure your favorite scent lasts all day with these easy fragrance tips.</p>
+            <p class="item10p4">November 28, 2024</p>
+          </div>
+        </article>  
+      </div>
+    </section>
+
+    <hr class="hr7">
+
+    <section class="section_container5">
+      <h2 class="section_header">About us</h2>
+      <div class="about_description">
+        <p>The visionary behind this fashion news website is passionate about 
+          bringing the world of fashion to a global audience. With years of 
+          experience in the fashion industry and a keen eye for emerging trends, 
+          the inventor created this platform to offer insightful coverage and 
+          inspire fashion enthusiasts. Driven by a love for creativity, innovation, 
+          and storytelling, they strive to connect readers with the ever-evolving 
+          world of style, ensuring the latest news and trends are just a click away.</p>
+        <img src="fashion/ad_1.jpeg" alt="models walking down a staircase">
+      </div>
+
+      <hr class="hr8">
+
+      <div class="triaple_pic">
+        <div class="first">
+          <img src="fashion/triaple_first.jpeg" alt="">
+          <p>Your go-to destination for all things fashion. From breaking news on global 
+            fashion events to in-depth reviews of new collections, The VEVO keeps you informed, 
+            inspired, and connected to the world of fashion.</p>
+        </div>
+        <div class="second">
+          <p>At VEVO, we bring you the latest trends, exclusive designer updates, and industry 
+            insights. Stay ahead of the curve with daily articles, style inspiration, and expert 
+            commentary on everything from runway shows to street style.</p>
+          <img src="fashion/triaple_second.png" alt="">
+        </div>
+        <div class="second_mobile">
+          <img src="fashion/triaple_second.png" alt="">
+          <p>At VEVO, we bring you the latest trends, exclusive designer updates, and industry 
+            insights. Stay ahead of the curve with daily articles, style inspiration, and expert 
+            commentary on everything from runway shows to street style.</p>
+        </div>
+        <div class="third">
+          <img src="fashion/Screenshot 2024-12-10 040241.png" alt="">
+          <p>VEVO delivers the freshest fashion news, from top designer interviews to emerging 
+            trends and style tips. Our mission is to keep you updated with all things fashion, 
+            helping you stay stylish and in the know.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+    <footer>
+      <div class="footer-container">
+          <div class="footer-left">
+              <h2>VEVO</h2>
+              <p>
+                  The latest fashion news, beauty coverage, celebrity style, fashion week updates,
+                  culture reviews, and videos.
+              </p>
+              <div class="social-icons">
+                  <a href="#"><img src="fashion/icons/facebook.jpg" alt="Facebook"></a>
+                  <a href="#"><img src="fashion/icons/pinterest.jpg" alt="Pinterest"></a>
+                  <a href="#"><img src="fashion/icons/instagram.jpg" alt="Instagram"></a>
+                  <a href="#"><img src="fashion/icons/youtube.jpg" alt="YouTube"></a>
+              </div>
+          </div>
+          <div class="footer-middle">
+              <h3>GENERAL INFORMATION</h3>
+              <ul>
+                  <li><a href="#">Terms and Conditions</a></li>
+                  <li><a href="#">Accessibility Help</a></li>
+                  <li><a href="#">Masthead</a></li>
+              </ul>
+          </div>
+          <div class="footer-right">
+              <h3>LEGAL</h3>
+              <ul>
+                  <li><a href="#">User Agreement</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Your Czech Republic Privacy Rights</a></li>
+              </ul>
+          </div>
+      </div>
+      <div class="footer-bottom">
+          <p>© 2024 VEVO. All Rights Reserved.</p>
+          <p>Turcan Valeria, Lichman Katsiaryna, Korotych Olha, Chitii Vladislava</p>
+      </div>
+  </footer>
+</body>
